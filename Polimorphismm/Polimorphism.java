@@ -1,5 +1,6 @@
+package Polimorphismm;
 class Animal{
-  protected void AnimalSound(){
+  public void AnimalSound(){
     System.out.println("animal make sound");
   }
 }
