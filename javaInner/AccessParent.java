@@ -4,6 +4,7 @@ class Out{
   class inner{
     int b = 20;
     public int getFromParent(){
+      // One advantage of inner classes, is that they can access attributes and methods of the outer class:
       return a;
     }
   }
