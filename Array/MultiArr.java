@@ -1,4 +1,7 @@
 package Array;
+
+import java.util.Arrays;
+
 class MultiArr{
   public static void main(String[] args) {
     int arr[][] = {{1,3,5,7},{2,4,6,8}};
@@ -17,6 +20,11 @@ class MultiArr{
         System.out.print(num);
       } 
        System.out.println("");
+    }
+
+    System.out.println("using for Arrays class");
+    for(int[] a : arr){
+      System.err.println(Arrays.toString(a));
     }
   }
 }
