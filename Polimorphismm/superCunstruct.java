@@ -18,6 +18,6 @@ class Goldfish extends Fish{
 
 public class superCunstruct {
   public static void main(String[] args) {
-     Goldfish goldfish = new Goldfish();
+     Goldfish goldfish = new Goldfish();  
   }
 }

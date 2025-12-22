@@ -1,3 +1,4 @@
+package RevConcept;
 class student{
   String name;
   double marks;

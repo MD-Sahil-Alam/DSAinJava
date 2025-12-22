@@ -1,4 +1,4 @@
-import java.io.*;
+package RevConcept;
 class Loops
  {
     public static void main(String[] args)
