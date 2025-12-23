@@ -2,8 +2,8 @@ package BinarySearch;
 
 public class Bsearch {
   public static void main(String[] args) {
-    int[] arr = {1,2,4,6,8,9,11,12,14,16,20,22};
-    int target =6; 
+    int[] arr = {-10,-3,-2,1,2,4,6,8,9,11,12,14,16,20,22};
+    int target =11; 
     System.out.println(search(arr,target));
     
   }
@@ -18,9 +18,9 @@ public class Bsearch {
       if(arr[mid]==target){
         return mid;
       }else if(target < arr[mid]){
-        end = mid;
+        end = mid-1;
       }else{
-        start = mid;
+        start = mid+1;
       }
     }
     return -1;
