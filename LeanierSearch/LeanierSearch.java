@@ -1,4 +1,4 @@
-package Array;
+package LeanierSearch;
 
 public class LeanierSearch {
   public static void main(String[] args) {
