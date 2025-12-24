@@ -11,8 +11,7 @@ public class OrderAgosticBSearch {
 
   static int bserch(int[] arr,int target){
     int s = arr[0];
-    int i = arr.length-1;
-    int e = arr[i];
+    int e = arr.length-1;
     if(s>e){
       return dBsearch(arr,target);
     }else{
