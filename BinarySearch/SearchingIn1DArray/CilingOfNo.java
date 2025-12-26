@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.SearchingIn1DArray;
 
 public class CilingOfNo {
   public static void main(String[] args) {

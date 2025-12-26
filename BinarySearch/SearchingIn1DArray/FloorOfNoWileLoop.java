@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.SearchingIn1DArray;
 
 public class FloorOfNoWileLoop {
   public static void main(String[] args) {
