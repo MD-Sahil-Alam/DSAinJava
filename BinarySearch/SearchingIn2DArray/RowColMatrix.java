@@ -11,7 +11,7 @@ public class RowColMatrix {
     {33,34,38,50}
   };
 
-  int target = 37;
+  int target = 29;
   System.out.println(Arrays.toString(search(arr, target)));
   }
 
@@ -25,8 +25,7 @@ static int[] search(int[][] arr, int target){
   while (row<arr.length && col>=0) { 
     if (arr[row][col]==target) {
         return new int[]{row,col};
-    }
-      if (arr[row][col]< target) {
+    }else if (arr[row][col]< target) {
           row++;
       }else{
         col--;

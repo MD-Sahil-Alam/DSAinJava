@@ -6,8 +6,7 @@ public class OptimizedEvenNoofDigi {
     int evennum = 0;
 
     for (int i = 0; i < nums.length; i++) {
-      int n = Math.abs(nums[i]);
-      int count = (int)Math.log10(n)+1;
+      int count = (int)Math.log10(nums[i])+1;
       if (count%2==0) {
         evennum++;
       }
